@@ -518,6 +518,13 @@ nav {
   text-align: center;
 }
 
+.dropShadow {
+  filter: drop-shadow(2px 2px 7px rgb(100, 99, 99));
+}
+
+
+/* MEDIA QURIES */
+
 @media (width > 480px) {
   .class__grid {
     grid-template-columns: repeat(2, 1fr);
